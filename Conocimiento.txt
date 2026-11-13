@@ -1,0 +1,144 @@
+BASE DE CONOCIMIENTO OFICIAL — RED SALUD ANDINA
+Fuente: anexo de la prueba técnica «Entregable técnico previo: agente de preguntas básicas», páginas 5 a 10.
+Esta información es ficticia y se utiliza únicamente para el ejercicio.
+
+1. IDENTIDAD, ALCANCE Y RESTRICCIONES
+Red Salud Andina es una red ficticia de salud con 8 sedes. Atiende a pacientes de las aseguradoras AutorizaPlus, Previsalud y MediPlan, bajo las mismas reglas para las tres. También atiende consultas particulares, pero las tarifas particulares no se encuentran en esta base.
+El asistente únicamente informa, orienta y deriva. NO agenda, cancela, reprograma ni consulta citas. NO puede verificar el estado de autorizaciones, consultar agendas médicas, ver resultados ni acceder a información personal de pacientes. NO pide ni almacena datos personales reales. NO proporciona diagnósticos ni consejo médico.
+Las respuestas deben estar fundamentadas en la información de este documento. Si falta un dato, decir que no se conoce y orientar al canal humano adecuado, sin inventar. No afirmar que el asistente realizó un trámite, consultó un expediente, contactó a un asesor o registró una pregunta si no existe una herramienta real que lo haya hecho.
+
+2. CANALES PARA ATENCIÓN HUMANA
+Call center: (601) 555 0100.
+WhatsApp con un asesor: +57 300 555 0100.
+Horario de ambos canales: lunes a viernes de 7:00 a 19:00; sábados de 8:00 a 14:00.
+Fuera de ese horario: formulario de contacto del portal citas.redsaludandina.example. La operación responde el siguiente día hábil.
+El portal también permite gestionar citas a quienes tengan una cuenta.
+Preguntas sin respuesta: la operación revisa cada lunes la lista de preguntas que el asistente no supo responder y, si corresponde, actualiza su base de conocimiento. Esto no significa que el asistente registre automáticamente una pregunta: solo puede afirmarlo si la aplicación implementa y ejecuta esa función.
+No es necesario conocer ni asegurar la hora actual para explicar los horarios de atención.
+
+3. SEDES, DIRECCIONES, HORARIOS Y SERVICIOS
+Regla general: todas las sedes cierran los domingos y festivos, con la excepción de la sede Centro en festivos descrita abajo. Los horarios generales de sedes no sustituyen los horarios especiales de laboratorio, farmacia o vacunación.
+
+SEDE CENTRO
+Dirección: Calle 10 # 5-20.
+Horario general: lunes a viernes 6:30–19:00; sábados 7:00–13:00.
+Servicios: medicina general, pediatría, ginecología, ortopedia, dermatología, laboratorio, farmacia y vacunación.
+Excepción festivos: abre 8:00–12:00 SOLO para farmacia y vacunación.
+Tiene parqueadero con costo; acceso para silla de ruedas.
+
+SEDE NORTE
+Dirección: Carrera 15 # 120-45.
+Horario general: lunes a viernes 6:30–19:00; sábados 7:00–13:00.
+Servicios: medicina general, pediatría, ginecología, odontología, laboratorio, farmacia y vacunación.
+Tiene parqueadero con costo; acceso para silla de ruedas.
+
+SEDE SUR
+Dirección: Avenida Sur # 40-10.
+Horario general: lunes a viernes 7:00–18:00.
+Servicios: medicina general, pediatría, odontología y laboratorio.
+Tiene acceso para silla de ruedas.
+
+SEDE OCCIDENTE
+Dirección: Calle 80 # 70-15.
+Horario general: lunes a viernes 7:00–18:00.
+Servicios: medicina general, ginecología y dermatología.
+Tiene acceso para silla de ruedas.
+
+SEDE ORIENTE
+Dirección: Carrera 7 # 60-30.
+Horario general: lunes a viernes 7:00–17:00.
+Servicios: medicina general y pediatría.
+Tiene acceso para silla de ruedas.
+
+SEDE PARQUE
+Dirección: Carrera 20 # 85-12.
+Horario general: lunes a viernes 7:00–18:00.
+Servicios: medicina general, ortopedia, dermatología y psicología.
+Tiene acceso para silla de ruedas.
+
+SEDE LAGO
+Dirección: Calle 100 # 15-80.
+Horario general: lunes a viernes 7:00–17:00.
+Servicios: medicina general y psicología.
+Tiene acceso para silla de ruedas.
+
+SEDE VILLA DEL RÍO (CIUDAD VECINA)
+Dirección: Calle 5 # 3-40.
+Horario general: lunes a viernes 8:00–16:00.
+Servicios: medicina general y pediatría. NO tiene laboratorio.
+Tiene acceso para silla de ruedas; consultorios en el primer piso.
+
+4. CITAS Y REQUISITOS
+Cómo conseguir una cita: por WhatsApp con un asesor, por el portal, por el call center o presencialmente en la sede. Para agendar por el portal se requiere tener una cuenta. El asistente no puede agendar.
+Qué llevar: documento de identidad, carné de la aseguradora y, para ortopedia, dermatología, psicología u odontología, orden médica. Se recomienda llegar 15 minutos antes.
+Medicina general: no necesita orden. Puede agendarse hasta con 15 días de anticipación.
+Especialidades: ortopedia, dermatología, psicología y odontología necesitan orden del médico general. Ortopedia y dermatología requieren además autorización de la aseguradora. Pediatría y ginecología son de acceso directo.
+Autorizaciones: la sede solicita la autorización a la aseguradora al agendar, ya sea por portal, WhatsApp, call center o directamente en la sede. El trámite tarda hasta 3 días hábiles y se notifica por WhatsApp o correo. Sin autorización no se atiende la cita que la requiere. El asistente NO puede comprobar el estado de una autorización; derivar a un asesor.
+Cancelar o reprogramar: hasta 4 horas antes de la cita, sin costo, por WhatsApp, portal o call center. El asistente no ejecuta esos cambios.
+Inasistencia: quien falte a 2 citas en 90 días sin avisar no puede agendar por el portal durante 30 días; puede hacerlo por el call center.
+Llegada tarde: hay 10 minutos de tolerancia. Después, la cita puede reasignarse y será necesario reprogramarla.
+Acompañantes: menores de 18 años deben acudir con adulto responsable. Mayores de 70 años y personas con discapacidad pueden ir con acompañante.
+Elegir médico: se puede solicitar un médico específico al agendar, sujeto a disponibilidad. El asistente desconoce las agendas de los médicos.
+
+5. CUOTAS MODERADORAS Y PAGOS
+Consulta de medicina general: $5.000.
+Consulta con especialista (ortopedia, dermatología, psicología, pediatría y ginecología): $12.000.
+Consulta de odontología: $8.000.
+Estas cifras corresponden a la consulta. Exámenes y procedimientos pueden tener cobros separados cuyo valor NO está disponible en esta base.
+No pagan cuota moderadora: menores de 5 años, gestantes en control prenatal y personas en programas de enfermedades crónicas.
+Pago: en la sede o en el portal.
+Pacientes particulares: se atienden consultas particulares, pero NO se conocen las tarifas de cada servicio. Derivar a los canales humanos para informarse.
+
+6. LABORATORIO Y RESULTADOS
+Laboratorio clínico: disponible sin cita, de lunes a viernes, en Centro y Norte de 6:30 a 10:00, y en Sur de 7:00 a 10:00.
+Ayuno: solo cuando la orden médica lo pida. La orden médica tiene vigencia de 30 días.
+Resultados de hematología: entre 24 y 48 horas.
+Resultados de otros exámenes: hasta 5 días hábiles.
+Consulta de resultados: a través del portal, usando documento y clave. Si el paciente no tiene clave, debe acercarse a la sede con su documento.
+No se entregan resultados por chat ni por teléfono. El asistente no puede ver resultados ni dar información de un paciente concreto.
+
+7. FARMACIA Y MEDICAMENTOS
+Farmacia: sedes Centro y Norte, lunes a viernes de 7:00 a 18:00.
+Vigencia de las fórmulas: 30 días.
+Medicamentos de control: requieren la fórmula original.
+Excepción de festivos: la sede Centro abre de 8:00 a 12:00 para farmacia y vacunación.
+No afirmar disponibilidad, inventario o existencias de medicamentos: esos datos no están disponibles.
+
+8. VACUNACIÓN
+Vacunación infantil y de adultos: sedes Centro y Norte, de lunes a viernes de 8:00 a 16:00, sin cita.
+Llevar carné de vacunación.
+Excepción de festivos: sede Centro de 8:00 a 12:00, para farmacia y vacunación.
+No dar recomendaciones médicas individuales sobre esquemas o vacunas.
+
+9. TELECONSULTA
+Disponible para medicina general y psicología, de lunes a sábado de 7:00 a 19:00, con cita previa.
+El enlace llega por WhatsApp.
+No sirve para urgencias ni para valoraciones físicas.
+
+10. ODONTOLOGÍA
+Solo se presta en Norte y Sur.
+Necesita cita y orden del médico general.
+No se presta ortodoncia.
+Cuota moderadora para consulta odontológica: $8.000, según las reglas de exención indicadas.
+
+11. HISTORIA CLÍNICA, CERTIFICADOS E INCAPACIDADES
+Historia clínica: la solicita el titular en la sede con su documento de identidad, o una persona autorizada por escrito que lleve copia del documento del titular.
+Plazo de entrega: 5 días hábiles. La primera copia es gratuita.
+Certificados e incapacidades: los emite el médico durante la consulta. No se emiten por chat ni correo.
+El asistente no puede acceder a la historia clínica ni expedir certificados.
+
+12. QUEJAS, RECLAMOS Y PREGUNTAS NO RESUELTAS
+Quejas y reclamos: se presentan mediante el formulario del portal o el call center. Plazo de respuesta: hasta 15 días hábiles.
+Si el paciente pregunta por un trámite específico o estado individual que el asistente no puede consultar, reconocer el límite y ofrecer el call center, WhatsApp con asesor y, fuera de horario, el formulario del portal.
+No prometer que una derivación se realizó si solamente se informaron los datos de contacto.
+Las preguntas desconocidas pueden incorporarse a la lista revisada los lunes por la operación únicamente si la aplicación implementa el registro. Si no, orientar a un canal humano.
+
+13. URGENCIAS Y CONSEJO MÉDICO
+Red Salud Andina NO atiende urgencias.
+Ante una emergencia, indicar que llamen al 123 o acudan al servicio de urgencias más cercano.
+No dar consejo médico por chat. Para dudas de salud, recomendar consultar a un profesional.
+
+14. LÍMITES DE INFORMACIÓN: NO INVENTAR
+Esta base NO informa disponibilidad de citas o médicos, estado individual de autorizaciones, resultados personales de laboratorio, historias clínicas de pacientes, tarifas de servicios particulares, valores específicos de exámenes o procedimientos, precios de parqueadero, existencias de medicamentos ni horarios distintos de los especificados.
+Si el usuario solicita uno de esos datos, explicar brevemente que no se tiene acceso a esa información y ofrecer el canal humano apropiado.
+Si el usuario solicita algo que contradice reglas expresas (por ejemplo, atención de laboratorio en Villa del Río, ortodoncia o urgencias en la red), aclarar que el servicio no está disponible en las condiciones indicadas; ofrecer alternativas que sí consten en la base.
